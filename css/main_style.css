@@ -553,6 +553,8 @@ main {
 	height: 1200px;
 }
 
+
+
 #slide-1 h1 {
 	
 	text-align: center;
@@ -787,6 +789,12 @@ margin-bottom: -20px;
 	
 }	
 	
+.baybayin{
+	
+	width: 100%;
+	
+	
+}	
 	
 .sectionbox_left {
 
@@ -840,8 +848,10 @@ margin-bottom: -20px;
 
 	
 section {
+	
         min-width: 768px;
-        height: 900px;
+        height: 960px;
+		
 }
 
  .hsContainer {
@@ -850,7 +860,7 @@ section {
         position: absolute;
 		padding-top: -100px;
 		padding-bottom: -200px;
-		height:130%;
+		height:150%;
 }
 
 .hsContent {
@@ -868,7 +878,7 @@ section {
 }
 		
 .hsContent h2  {
-         font-size: 20px;
+        font-size: 20px;
         line-height: 28px;
 }
 		
@@ -883,7 +893,7 @@ section {
 #slide-1 .hsContent {
         bottom: 10px;
         top: 70px;
-        margin-left: -120px;
+        margin-left: -80px;
 }
 	
 	
@@ -891,7 +901,7 @@ section {
 #slide-1  table  {
 		
 	width: 300px;
-	margin-left: -40px;
+	margin-left: -60px;
 	
 }
 	
@@ -909,7 +919,31 @@ section {
 	
 }
 	
+#slide-1  p  {
+		
+    font-size: 15px;
+	margin-left: -30px;
+}
+
+
+#slide-1  h1  {
+		
+
+	margin-left: -10px;
+}		
+
+
+#slide-1  section  {
+		
+
+	 margin-left: -10px;
+
+
+}
+
 	
+		
+		
 	
 #slide-2 .hsContent {
 
@@ -917,7 +951,8 @@ section {
 	margin-left: -120px;
 	
 }
-	
+
+
 	
 	
 #slide-2 h1 {
@@ -951,11 +986,7 @@ section {
 }
 	
 	
-#slide-4 section {	
 
-    height: 500px;
-	
-}
 	
 #slide-4 .hsContent {
 	
@@ -1105,10 +1136,7 @@ section {
 
 
 
-@media screen 
-  and (min-device-width: 1280px) 
-  and (max-device-width: 2513px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 1920px) {
 
 
 #slide-3 .hsContent {

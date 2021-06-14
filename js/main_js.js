@@ -42,7 +42,7 @@
 
 	    // Keep minimum height 550
 	    if(winH <= 650) {
-	        winH = 950;
+	        winH = 960;
 	    }
 
 	    // Init Skrollr for 768 and up
